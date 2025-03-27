@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+Date Created : March 2025
+Purpose      : Pet shelter html5 web page college project
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a website for a ficticious pet shelter for a college project">
+    <meta name="keywords" content="adoption, dog, cat, application, pet, shelter, rehome, rescue, children, small">
+    <title>Animal Rescue Sligo</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/gif">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/logo.png" alt="logo" width="110">
+        <h1>Animal Rescue Sligo</h1>
+        <h4>Where every animal finds a home</h4>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="rehoming.html">Animals for Rehoming</a></li>
+            <li><a href="successstories.html">Success Stories</a></li>
+            <li id="active"><a href="application.html">Adoption Application</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2 class="textCenter">Adoption Application Form</h2>
+        <section class="applicationForm">
+            <img src="images/logo.png" alt="sligo animal rescue logo">
+            <h3>Please note: sections with a red asterisk must be filled in</h3>
+            <p>Sligo Animal Rescue will asses your form and reach out to you in 5-7 business days. If your application passes the first stage you will be asked for more information. Good Luck!</p>
+            
+            <form action="http:/foo.com" method="get">
+                <label for="first_name">First Name  :<span class="required">*</span></label>
+                    <input type="text" name="first_name" id="first_name" autofocus required><br>
+                <label for="last_name">Last Name  : <span class="required">*</span></label>
+                    <input type="text" name="last_name" id="last_name"><br>
+                <label for="phone">Phone Number:<span class="required">*</span></label>
+                    <input type="text" name="phone" id="phone"><br>
+                <label for="email">Email Address:<span class="required">*</span></label>
+                    <input type="text" name="email" id="email"><br>
+                <label for="message">Address:<span class="required">*</span></label>
+                    <textarea cols="40" rows="6" id="message" placeholder="Address" data-maxlength="200"></textarea><br>
+                <label for="eir_code">Eir Code:<span class="required">*</span></label>
+                    <input type="text" name="eir_code" id="eir_code"><br>
+                <label for="visit">A home visit is required. Do you consent to this?<span class="required">*</span></label><br>
+                    <input class="radio" type="radio" name="visit" id="visit" value="yes">Yes
+                    <input type="radio" name="visit" id="visit2" value="no">No<br>
+                <label for="vet_address">Name and Address of local veterinary clinic:</label>
+                <textarea cols="40" rows="6" id="vet_address" placeholder="Vet's address" data-maxlength="200"></textarea><br>
+
+                <label for="other_pets">Do you currently have any pets?<span class="required">*</span></label><br>
+                    <input type="radio" name="other_pets" id="other_pets" value="yes">Yes
+                    <input type="radio" name="other_pets" id="other_pets2" value="no">No<br>
+                <label for="info_other_pets">If yes, please provide some information about the pet(s) such as type, breed, age and size:</label>
+                <textarea cols="40" rows="6" id="info_other_pets" placeholder="Other pets" data-maxlength="200"></textarea><br>
+                <label for="children">Do you have children?<span class="required">*</span></label>
+                    <input type="radio" name="children" id="children" value="yes">Yes
+                    <input type="radio" name="children" id="children2" value="no">No<br>
+                <label for="info_children">If yes, please provide some information about the child/children such as their age(s) and their experience with pets:</label>
+                    <textarea cols="40" rows="6" id="info_children" placeholder="Details about children" data-maxlength="200"></textarea><br>
+                <label for="type_animal">What type of animal would you like to adopt?<span class="required">*</span></label><br><br>
+                    <input type="radio" name="type_animal" id="type_animal" value="dog">Dog
+                    <input type="radio" name="type_animal" id="type_animal2" value="cat">Cat
+                    <input type="radio" name="type_animal" id="type_animal3" value="equine">Equine
+                    <input type="radio" name="type_animal" id="type_animal4" value="small pets">Small pets<br>
+                <label for="chosen_pet">If there is a specific animal you would like to adopt please enter their name:</label><br>
+                    <input type="text" name="chosen_pet" id="chosen_pet"><br>
+
+                <input type="submit" name="submit" id="submit" value="Submit"><br>
+                <input type="reset" name="reset" id="reset">
+
+            </form>
+
+
+
+
+        </section>
+
+
+
+
+    </main>
+
+
+    <footer id="footer">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rehoming.html">Animals for Rehoming</a></li>
+            <li><a href="successstories.html">Success Stories</a></li>
+            <li><a href="application.html">Adoption Application</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+        <p>&copy; 2025 Animal Rescue Sligo</p>
+    </footer>
+</body>
+</html>

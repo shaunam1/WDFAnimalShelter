@@ -1,0 +1,404 @@
+/* external CSS */
+
+.logo{
+    float:left; 
+    margin-right: 10px; 
+}
+
+header{
+    background-image: url(../images/headerimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    color: #8E8E8E;
+    text-align: left;
+    padding-top: 2px;
+}
+
+header h4{
+    color: darkorange;
+    font-style: italic;
+}
+
+header h1{
+    color: darkblue;
+}
+
+body{
+    font-family: Georgia;
+    background-color: cornflowerblue;
+}
+
+nav{
+    background-color: lightgray;
+    padding: 5px;
+    
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li {
+        list-style-type: none;
+        background-color: lightskyblue;
+        display: inline;
+        padding: 15px;
+        margin: 5px;
+        border-radius: 10px;
+    }
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background-color: darkorange;
+}
+
+#active{
+    
+    background-color: white;
+    font-weight: bold;
+}
+
+h4{
+    color: black;
+}
+
+.colDetail {
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+    padding-bottom: 10px;
+    margin-bottom: 35px;
+}
+
+.plain{
+    text-decoration: none;
+    color: chocolate;
+    font-weight: bold;
+    margin-bottom: 200px;
+    text-align: left;
+}
+
+#scroll {
+    height: 450px;
+    overflow: auto;
+    border: 2px solid darkorange;
+    margin-bottom: 15px;
+    margin-top: 35px;
+}
+
+.centerImage{
+    text-align: center;
+}
+
+.leftImage{
+    float: left;
+    margin-right: 10px;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.textLeft{
+    text-align: left;
+}
+
+.videoContent {
+    float: left;
+    width: 48%;
+    text-align: left;
+    height: 700px;
+    margin-left: 20px;
+
+}
+
+.contentRight {
+    float: right;
+    width: 48%;
+    height: 700px;
+}
+
+.colDetail {
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+.applicationForm{
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-right: 20%;
+    padding-left: 20%;
+    border: solid darkorange;
+    min-height: 500px;
+    text-align: center;
+}
+
+.required{
+    font-weight: bold;
+    color: red;
+}
+
+label{
+    float: left;
+    width: 200px;
+    text-align: left;
+    
+}
+
+input{
+    margin-left: 1em;
+    margin-bottom: 2em;
+    width: 220px;
+}
+
+input[type="radio"] {
+    width: 15px;
+}
+
+#message, #vet_address, #info_other_pets, #info_children{
+    margin-bottom: 2em;
+}
+
+#submit, #reset {
+    margin-top: .5em;
+    width: 8em;
+    background-color: darkorange;
+    border: 2px solid cornflowerblue;
+    margin-right: 45%;
+    margin-left: 45%;
+}
+
+
+.map {
+    float: left;
+    width: 49%;
+    text-align: center;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 1px;
+    border: solid darkorange;
+    height: 862px;
+}
+
+.address {
+    background-color: white;
+    margin-top: 15px;
+    margin-right: 5px;
+    border: solid darkorange;
+    float: right;
+    width: 49%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.openingHours {
+    background-color: white;
+    margin-right: 5px;
+    border: solid darkorange;
+    float: right;
+    width: 49%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.projectMessage{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+
+
+}
+
+aside {
+    width: 20%;
+    float: right;
+    color: white;
+    border: 2px solid darkorange;
+    background-color: lightskyblue;
+    padding-right: 10px;
+    margin-top: 48px;
+}
+
+aside ol li {
+    
+    color: black;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.animalCategories {
+    color: black;
+    
+}
+
+.rehoming {
+    border: 2px solid darkorange;
+    background-color: white;
+    float: left;
+    width: 38%;
+    text-align: left;
+    height: 500px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+
+.storyLeft {
+    
+    border: 2px solid darkorange;
+    background-color: white;
+    text-align: left;
+    height: 350px;
+    margin-bottom: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.storyRight {
+    border: 2px solid darkorange;
+    background-color: white;
+    text-align: left;
+    height: 350px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 30px;
+}
+
+.rightImage {
+    float: right;
+    margin-left: 10px;
+}
+
+
+
+table{
+    width:80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    border: 2px solid darkorange;
+    border-collapse: collapse;
+    font-size: medium;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+th, td {
+    border: 2px solid darkorange;
+    text-align: center;
+    padding: 8px;
+
+}
+
+.centerText{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.goToBottom{
+    text-align: center;
+    border: 2px solid darkorange;
+    color: black;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-right: 45%;
+    margin-left: 45%;
+    width: 180px;
+    height: 60px;
+    padding-top:15px;
+}
+
+.internalLink{
+    
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        margin-bottom: 200px;
+        text-align: left;
+    
+}
+
+.goToBottom:hover{
+    background-color: darkOrange;
+}
+
+.goToTop{
+    text-align: center;
+    border: 2px solid darkorange;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 45%;
+    margin-left: 45%;
+    width: 180px;
+    height: 60px;
+    padding-top:35px;
+}
+.goToTop:hover{
+    background-color: darkOrange;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.soundsLibrary {
+    background-color: white;
+    border: 2px solid darkorange;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+
+footer {
+    clear: both;
+    background-color: lightgray;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid darkorange;
+}
+
+footer ul{
+    text-align: center;
+}
+
+footer ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+}
+
+footer ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+footer p{
+    color: black;
+}
+
+
+
+
+
